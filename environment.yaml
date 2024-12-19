@@ -1,0 +1,27 @@
+name: igdesign
+channels:
+  - pytorch
+  - nvidia
+  - conda-forge
+  - bioconda
+  - pyg
+  - defaults
+
+dependencies:
+  - python=3.10
+  - pytorch
+  - pytorch-cuda=11.8
+  - pandas
+  - cytoolz
+  - einops
+  - hydra-core
+  - biopython
+  - hmmer=3.3.2
+  - anarci
+  - pip
+  - pip:
+    - lightning>=2.0,<2.1
+    - datasets>=2.20.0
+    - huggingface_hub>=0.24.5
+    - transformers>=4.42.4
+    - torchtyping>=0.1.4

@@ -1,0 +1,7 @@
+LICENSE
+README.md
+setup.py
+src/igdesign.egg-info/PKG-INFO
+src/igdesign.egg-info/SOURCES.txt
+src/igdesign.egg-info/dependency_links.txt
+src/igdesign.egg-info/top_level.txt
